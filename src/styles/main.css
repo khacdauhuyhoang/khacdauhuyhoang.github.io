@@ -174,3 +174,28 @@ a{color:inherit}
   font-weight:800;
   box-shadow:0 8px 22px rgba(0,0,0,.18);
 }
+.tableWrap{
+  margin-top:14px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  overflow:auto;
+  background:#fff;
+}
+.table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:720px;
+}
+.table th, .table td{
+  padding:12px 14px;
+  border-bottom:1px solid var(--border);
+  text-align:left;
+  vertical-align:top;
+  font-size:14px;
+}
+.table th{
+  background:#f8fafc;
+  font-weight:900;
+}
+.table tr:last-child td{border-bottom:none;}
+
